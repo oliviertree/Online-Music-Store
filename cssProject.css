@@ -1,0 +1,258 @@
+body
+{
+	background-color:#F0F0F0;
+}
+
+div#container
+{
+	margin-left:10%;
+	margin-right:10%;
+	height:auto;
+	clear:both; 
+	width:1000px;
+}
+
+#header
+{
+	border-style:solid;
+	height:150px;
+	background-color:#660066;
+	color:#FFFFFF;
+	border-color:#0000CC;
+}
+
+p#headerTitleId
+{
+	background-color:#c2388d;
+	font-family:Georgia;
+	margin-top:40px;
+	text-align:center;
+	font-style:italic;
+	font-size:30px;
+}
+
+div#timeDiv
+{
+	width:50%; 
+	float:left;
+	font-size:20px;
+}
+
+div#searchDivId
+{
+	width:50%;
+	border-style:none;
+	//margin-top:30px;
+	//padding-right:10px;
+	text-align:right;
+	float:left;
+}
+
+div#footer
+{
+	border-style:solid;
+	height:30px;
+	background-color:#660066;
+	border-color:#0000CC;
+	color:white;
+	clear:both;
+}
+
+div#middleDiv
+{
+	border-style:none;
+	background-color:#FFFFFF;
+	height:auto;
+	width:100%;
+	float:left;
+}
+
+div#sideNavMenu
+{
+	width:20%;
+	height:auto;
+	float:left;
+}
+
+div#content
+{
+	border-style:none;
+	float:left;
+	width:60%;
+	background-color:#F0F0F0;
+	height:auto;
+}
+
+div.productDivClass
+{
+	width:40%;
+	height:40%;
+	float:left;
+	padding:20px;
+	text-align:center;
+}
+
+div.productDivClass img
+{
+	width:80%;
+	height:80%;
+	margin:0px;
+	padding:0px;
+	padding-bottom:0px;
+	border-style:solid;
+}
+
+
+div#addsMenu
+{
+	width:20%;
+	height:auto;
+	float:left;
+}
+
+ul.sideMenuId
+{
+	border-style:solid;
+	list-style-type:none;
+	padding:0px;
+	margin:10px;
+	background-color:#660066;
+	border-radius:10px;
+	overflow: hidden;
+}
+
+a.navLinksClass
+{
+	color:#FFFFFF;
+	text-decoration:none;
+	background-color:#660066;
+	display:block;
+	text-align:center;
+	border-bottom-style:solid;
+	border-bottom-color:#D8D8D8;
+}
+
+li a:hover, p a:hover
+{
+	background-color:#c2388d;
+	font-weight:bolder;
+	color:#000000;
+}
+
+div span a
+{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+div p a
+{
+	color:#000000;
+	text-decoration:none;
+}
+
+div span a:hover
+{
+	font-weight:bolder;
+	color:#000000;
+}
+
+img.prodImgThumbnail
+{
+	width:200px;
+	height:200px;
+}
+
+div#itemContainerDiv
+{
+border-style:solid;
+width:300px;
+height:300px;
+}
+
+div#itemImg
+{
+width:50%;
+height:50%;
+border-style:solid;
+}
+
+div#itemDetails
+{
+width:50%;
+height:50%;
+border-style:solid;
+}
+
+/*
+	The following are css used to edit products table,
+	and display products.
+*/
+
+table.prodTable
+{
+	background-color:#F8F8F8;
+	width:400px;
+}
+
+td.headerClass
+{
+	background-color:#AAF200;
+	font-weight:bold;
+}
+
+img.imageClass
+{
+	width:100px;
+	height:100px;
+}
+
+td.tdImageClass
+{
+	width:100px;
+	height:100px;
+}
+
+.prodInfo
+{
+	vertical-align:top;
+}
+
+span.prodPrice
+{
+	font-weight:bold;
+	font-size:20px;
+}
+
+input.addToCartClass
+{
+	background-color:#AAF200;
+	border-style:none;
+}
+
+ul.productsListClass
+{
+	list-style-type:none;
+}
+
+p.shoppingStatusClass
+{
+	text-align:center;
+	font-size:20px;
+}
+
+a.shoppingStatusLinksClass
+{
+	border-style:solid;
+	padding:10px;
+	background-color:#660066;
+	color:#FFFFFF;
+}
+
+input.checkoutBtnClass
+{
+	border-style:solid;
+	padding:10px;
+	background-color:#660066;
+	color:#FFFFFF;
+}

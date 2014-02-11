@@ -1,0 +1,63 @@
+div.registrationForm
+{
+	border-style:none;
+	width:500px;
+	height:400px;
+	background-color:#F0F0F0;//#336699;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+}
+
+div h2
+{
+	color:#100000;
+	text-align:center;
+	font-family:Georgia;
+	font-style:italic;
+}
+
+table.formTableClass
+{
+	width:450px;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	padding:20px;
+	border-style:solid;
+	font-family:Georgia;
+	font-weight:bolder;
+	background-color:#A0A0A0;//#CC99CC;
+}
+
+td.inputTitleClass
+{
+	text-align:right;
+	vertical-align:top;
+}
+
+div.buttonsDiv
+{
+	width:250px;
+	height:50px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	padding:20px;
+	border-style:none;
+}
+
+.buttonClass
+{
+	border-width:2px;
+	border-color:#A0A0A0;
+	background-color:#CCFFFF;
+	color:#100000;
+	text-align:center;
+	font-family:Georgia;
+	font-weight:bolder;
+	font-size:15px;
+	width:100px;
+	height:40px
+}
